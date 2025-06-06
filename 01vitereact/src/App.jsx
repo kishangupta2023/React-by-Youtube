@@ -1,12 +1,18 @@
+
+
 import Chai from "./chai"
 
+
 function App() {
+  const username = "chai aur code"
 
   return (
+    <>
     <Chai/>
+    <h1>chai aur react {username}</h1>
+    <p>test para</p>
+   </>
   )
-  // for returning more element in jsx we should return like this
-  // return <> .... </>
 }
 
 export default App
