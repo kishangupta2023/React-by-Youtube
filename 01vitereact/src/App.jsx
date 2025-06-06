@@ -1,8 +1,12 @@
+import Chai from "./chai"
+
 function App() {
 
   return (
-    <h1>Chai aur react with vite | kishan</h1>
+    <Chai/>
   )
+  // for returning more element in jsx we should return like this
+  // return <> .... </>
 }
 
 export default App
