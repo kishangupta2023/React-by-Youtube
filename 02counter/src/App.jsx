@@ -13,6 +13,14 @@ function App() {
     // counter = counter + 1
     if(counter < 20){
     setCounter(counter + 1)
+
+    // interview question this will result in only counter +1 
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+
+    // by calling setCounter((counter) = > counter +1) we can change the value at each setcounter if we call like this the counter increase by number of time it is being called 
     }
   }
 
