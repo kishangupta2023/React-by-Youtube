@@ -5,11 +5,13 @@ import App from './App.jsx'
 
 function MyApp(){
     return (
-        <div>
+        <div >
             <h1>Custom App | chai</h1>
         </div>
     )
 }
+
+//Creating  react Element 
 
 // const ReactElement = {
 //     type: 'a',
@@ -21,12 +23,18 @@ function MyApp(){
 // }
 
 const anotherElement = (
+    <>
+    <br></br>
     <a href="https://google.com" target='_blank'>Visit google</a>
+    </>
 )
 
 
 
 const anotherUser = "chai aur react"
+
+
+// this is the basic way by which react use and expect its input to feeded 
 
 const reactElement = React.createElement(
     'a',
@@ -35,8 +43,10 @@ const reactElement = React.createElement(
     anotherElement
 )
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
  
+    // MyApp()
     reactElement
   
 )

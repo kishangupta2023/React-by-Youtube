@@ -9,6 +9,7 @@ function App() {
   return (
     <>
     <Chai/>
+    {/* evaluated expression  we dont write js it give final output  imp */}
     <h1>chai aur react {username}</h1>
     <p>test para</p>
    </>
